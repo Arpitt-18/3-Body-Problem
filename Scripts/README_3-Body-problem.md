@@ -1,20 +1,8 @@
-**3-Body Problem Simulation**
-
-A Python implementation of the 3-Body Problem, a fundamental problem in astrodynamics that describes the motion of three celestial bodies interacting with each other.
-
-**Table of Contents**
-
-1. [Introduction](#introduction)
-2. [Dependencies](#dependencies)
-3. [Variables](#variables)
-4. [Functions](#functions)
-5. [Code Structure](#code-structure)
-6. [Example Use Cases](#example-use-cases)
-7. [Notes](#notes)
+**Documentation: 3-Body Problem Simulation**
 
 **Introduction**
 
-The 3-Body Problem is a classic problem in astrodynamics that describes the motion of three celestial bodies interacting with each other. This code simulates the 3-Body Problem using numerical integration and visualizes the trajectories of the three planets.
+The 3-Body Problem is a fundamental problem in astrodynamics that describes the motion of three celestial bodies interacting with each other. This code simulates the 3-Body Problem using numerical integration and visualizes the trajectories of the three planets.
 
 **Dependencies**
 
@@ -69,26 +57,3 @@ The code consists of four main sections:
 
 * The `solve_ivp` function from SciPy is used for numerical integration, which provides a robust and efficient method for solving systems of ODEs.
 * The `FuncAnimation` function from Matplotlib is used to create an animated plot by updating the visualization at each frame.
-
-**Installation**
-
-To install this project, run:
-
-```bash
-pip install numpy matplotlib scipy
-```
-
-**Usage**
-
-Run the simulation using:
-
-```python
-python 3_body_simulation.py
-```
-
-This will display a 3D animation of the three planets' trajectories. You can modify the initial conditions and time span by updating the `m1`, `m2`, `m3` variables, `initial_position_1`, `initial_position_2`, `initial_position_3`, `initial_velocity_1`, `initial_velocity_2`, `initial_velocity_3`, `t_s`, and `t_points` variables in the code before running it.
-
-**License**
-
-This project is licensed under the MIT License. See LICENSE for details.
-
