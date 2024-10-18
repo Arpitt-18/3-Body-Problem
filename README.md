@@ -88,7 +88,3 @@ python 3_body_simulation.py
 
 This will display a 3D animation of the three planets' trajectories. You can modify the initial conditions and time span by updating the `m1`, `m2`, `m3` variables, `initial_position_1`, `initial_position_2`, `initial_position_3`, `initial_velocity_1`, `initial_velocity_2`, `initial_velocity_3`, `t_s`, and `t_points` variables in the code before running it.
 
-**License**
-
-This project is licensed under the MIT License. See LICENSE for details.
-
